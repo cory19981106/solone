@@ -1,0 +1,455 @@
+.text{
+    color: #000000;
+}
+
+/* ------ Solone圖片大小 ------ */
+img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 0%;
+    margin-right: -55px;
+    margin-top: 0%;
+}
+.section1{
+    background-color: #0000;
+    margin-bottom: -50px;
+    
+}
+
+/* ------ IG icon 位置 ------ */
+.IG {
+    max-width: 100%;
+    height: auto;
+    padding-top: -40px;
+    margin-right: 5px;
+}
+/* ------ FB icon 位置 ------ */
+.FB {
+    max-width: 100%;
+    height: auto;
+    margin-right: -5px;
+}
+    
+
+.fixed-top {
+    position: fixed;
+    top: 0%;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+a:hover {
+    text-decoration: none;
+}
+.bg-dark{
+    background-color: #313131!important;
+    
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    width: 155px;
+    text-align: center;
+    padding-top:0% ;
+}
+.navbar-brand {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 1px;
+    
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: center;
+    background-color: transparent;
+}
+
+/* ------ 最上方的文字欄大小 ------ */
+.navbar-collapse {
+      text-align: center;
+      padding: 0px;
+      color: #FFFFFF;
+      margin-left:170px; 
+      font-size: 14pt;
+    
+  }
+/* ------ 登入&註冊的位址 ------ */
+.member{
+  
+    padding-bottom: 65px;
+    margin-right: 0px;
+    font-size: 12pt;
+   
+}
+/* ------ 購物車圖片位置 ------ */
+.CART{
+    padding-bottom: 60px;
+    margin-left: -35px;
+    margin-right: 75px;
+}
+
+/* ------ 影片 ------ */
+
+.video-area {
+    padding: 5% 20%;
+    background-color: #272727;
+}
+
+.video-container {
+    position: relative;
+    padding: 30%;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ------產品介紹區塊 ------*/
+
+.creative_area {
+    padding: 50px 0 100px 0;
+    background-color: #fff;
+}
+
+.creative_area h2 {
+    color: #6fafb4;
+    margin: 20px 0 60px 0;
+}
+
+.creative_area .card img {
+    width: 100%;
+}
+
+.creative_area .card h4 {
+    color: #fff;
+}
+
+
+/* 把標題區塊card-title-wrap設定好位置 */
+
+.creative_area .card-title-wrap {
+    padding: 15px 25px;
+    position: relative;
+    z-index: 9;
+    background-color: #fff;
+}
+
+
+/* 設定產品說明文字標題 */
+
+.creative_area .card-title-wrap .card-title {
+    display: block;
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.creative_area .card-title-wrap .card-text {
+    display: block;
+    margin: 0;
+    font-size: 18px;
+    color: #335
+}
+
+
+/* 滑鼠滑過去  */
+
+.creative_area .card:hover {
+    visibility: visible;
+    background-color: #6fafb4;
+}
+
+.creative_area .card:hover .card-title-wrap {
+    background-color: #6fafb4;
+}
+
+
+/* 滑鼠滑過照片變透明 */
+
+.creative_area .pic-hover {
+    padding-top: 45px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.creative_area .card:hover .pic-hover {
+    opacity: .8;
+    visibility: visible;
+    color: #FFFFFF;
+}
+
+
+/* 商品文案 */
+
+.article_text h3 {
+    color: #ffffff;
+    margin: 10px 0;
+    letter-spacing: .5rem;
+}
+
+.article_text h1 {
+    color: #6fafb4;
+    margin: 10px 0;
+}
+
+.article_text p {
+    color: #dbdddd;
+    line-height: 2rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 50px;
+}
+
+
+/* ------ 背景影片 ------ */
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    /* max-width 會讓影隨著螢幕大小改變，
+    min-width就只會維持影片原尺寸! */
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: .5;
+}
+
+/* ------ 中間產品圖片 ------ */
+.cosmetic-cotainer{
+  
+    margin-bottom: 75px;
+}
+/* ------ 中間產品圖片左右對齊 ------ */
+.cos{
+
+margin-right: 45px;
+margin-left: 55px;
+}
+
+/* 商品促銷活動 */
+
+.activity_area {
+    background-color: #ffffff;
+    padding: 150px 0;
+    padding: 150px 0;
+}
+
+.activity_price {
+    margin: 50px 0;
+}
+
+.activity_price span {
+    color: #db3a55;
+    font-size: 5rem;
+}
+
+.activity_price h1 {
+    margin: 20px 0;
+    color: #969696;
+}
+
+.activity_price h2 {
+    color: #3e3f3f;
+}
+/* body& footer最下面 文字 */
+body {
+    margin: 0;
+    font-family: '標楷體', sans-serif;
+    background-color: #ffffff;
+    color:   #f5c1c0;
+    padding: 0;
+}
+
+
+/* 中間兩張大圖 */
+#Picture-two .Picture-two-1.section1
+{
+    width: 999px;
+    height: 305px;
+   
+    
+}
+/* 規格 */
+
+.standard_area {
+    background-color: #FFFFFF;
+}
+
+.standard_use {
+    list-style-type: decimal;
+}
+
+.standard_use li {
+    font-size: 16px;
+    line-height: 1.5rem;
+    text-align: justify;
+    margin-bottom: 15px;
+    color: #3e3f3f;
+}
+.banner {
+widows: 999px;
+height: 60px;
+background: blue;
+margin:0 auto;
+
+}
+
+
+/* 貼心提醒 */
+
+.content {
+    position: relative;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.remind {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #FFFFFF;
+}
+
+
+/* 頁腳 */
+
+.footer {
+    background-color: #313131;
+    padding: 10px 0;
+}
+
+.footer_logo img {
+    max-width: 100px;
+}
+
+.footer_address ul {
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 1.2rem;
+    color: #5e5e5e;
+}
+
+.footer_copyright {
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+.nav-link{
+    font-size: 20px;
+    margin-top: 58px;
+    margin-bottom: 23px;
+}
+
+ .navbar-brand{
+    
+        margin: -250px;
+        width: 35%; 
+        padding: 5px;
+        padding-right: 135px;
+    }
+.navbar-nav ml-center{
+    margin-left: 0px;
+}
+.member.fixed-top li+li{
+    
+      
+        border-left: 8px dotted #d0d0d0;
+        height: 18px;
+        float:right;
+        text-align: medium;
+        padding-left: 75px;
+        padding-right: 50px;
+        margin-top: 15px;
+}
+col-md-4 col-sm-12 footer_address {
+    text-align:center;
+     left:250px;
+}
+.row{
+    margin-block-start:10px;
+  
+}
+
+
+<style>
+
+ul li{
+	float: left;
+    margin:50px;
+    
+}
+.main-container {
+	float:left;
+	position:relative;
+	left:-18%;
+}
+.fixer-container {
+	float:left;
+	position:relative;
+    left:165%;
+    margin-top: 55px;
+}
+</style>
+
+/* FB按鈕連結 */
+ @media only screen and (max-width: 768px) {
+}
+
+ @media only screen and (max-width: 480px) {
+}
+ @media only screen and (max-width: 320px) {
+}
+
+.layout-footer-wrapper .social-link {
+    display: inline-block;
+    margin-right:100px;
+}
+
+ol, ul, li {
+    list-style: none;
+    display: inline-block;
+    width: 150px;
+}
+
+/* FB&IG按鈕對齊 */
+.social-link{
+    margin-bottom: -15px;
+}
+
+.layout-footer-wrapper .social-group {
+    margin-right: 80px;
+}
+
+.floated{
+    width: 400px;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: block;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: 300px;
+    text-align: center;
+}
+
+.social-group{
+    width: 390px;   
+}
